@@ -7,7 +7,7 @@ def string_reverse(str1):
     rstr1 = ''
     
     # Calculate the length of the input string 'str1'
-    index = length(str1) 
+    index = len(str1 ) 
     
     # Execute a while loop 
     while index > 1:
@@ -21,7 +21,7 @@ def string_reverse(str1):
     return str1
 
 def main():    
-    print("String reverse for \'12345abcde\' is", string_reverse(str1))
+    print("sstring reverse for \'12345abcde\' is", string_reverse(str1))
 
 # Don't change the code below!
 if __name__ == "__main__":

@@ -6,7 +6,7 @@
 from math import pi
 
 def volume_cone(radius, height):
-    volume = 1/3 * pi * radius ** 2 * height
+    volume = (1/3) * pi * radius ** 2 * height
     return volume
 
 def main():

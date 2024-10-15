@@ -4,9 +4,9 @@
 # This program is used to perform basic mathematical calculations.
 
 def calculation(x, y):
-    subtraction = x-y
-    multiplication = x*y
-    division = x/y if y != 0 else None  # To handle division by zero
+    subtraction = x - y
+    multiplication = x * y
+    division = x / y if y != 0 else None  # To handle division by zero
     return subtraction, multiplication, division
 
 def get_numbers():
